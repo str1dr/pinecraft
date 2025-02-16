@@ -558,7 +558,7 @@ if [[ $? == 0 ]]; then
     F)
       # https://fabricmc.net/use/
       flavor="Fabric"
-      url="https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.0/fabric-installer-1.0.0.jar"
+      url="https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.0.1/fabric-installer-1.0.1.jar"
       jarname="fabric-server-launch.jar"
       switches="server -mcversion ${mcver} -downloadMinecraft"
       ;;
